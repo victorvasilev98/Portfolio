@@ -500,6 +500,13 @@ header .button {
 #curriculum-vitae .cv-work > li .image {
 	padding: 1rem;
 	margin-bottom: 1rem;
+	padding-left: 0;
+}
+
+#curriculum-vitae .cv-work > li .image img {
+	width: 15rem;
+	object-fit: cover;
+	display: block;
 }
 
 #curriculum-vitae .cv-work > li .description {
